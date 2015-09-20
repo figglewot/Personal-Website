@@ -1,0 +1,209 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background:
+    radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#282828;
+    background-size:16px 16px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Give cool transition feel to the navbar when hovering over links*/
+.navbar-collapse .navbar-nav > li > a
+{
+	-o-transition:.25s;
+	-ms-transition:.25s;
+	-moz-transition:.25s;
+	-webkit-transition:.25s;
+	transition:.25s;
+}
+
+#resumeSkillSection ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#resumeSkillSection ul li
+{
+    display:inline-block;
+    text-decoration: none;
+    border:solid 1px #d5d5d5;
+    padding:1px 1px 1px 1px;
+    margin:1px 1px 1px 1px;
+}
+
+#resumeExperienceSection ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#resumeExperienceSection ul li
+{
+    display:inline-block;
+    border-bottom: 1px dotted #d5d5d5;
+}
+
+#resumeExperienceSection ul li:last-child
+{
+    display:inline-block;
+    border-bottom: none;
+}
+
+#resumeExperienceSection h5
+{
+    font-weight:bold;
+}
+
+#resumeExperienceSection h6
+{
+    font-size:.75em;
+}
+
+#blogSection ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#blogSection ul li a
+{
+    color:inherit;
+}
+
+#blogSection ul li a:hover
+{
+    text-decoration:none;
+    color:#808080;
+    -o-transition:.25s;
+	-ms-transition:.25s;
+	-moz-transition:.25s;
+	-webkit-transition:.25s;
+	transition:.25s;
+}
+
+#blogSection ul li h3
+{
+    text-align: center;
+}
+
+#blogSection ul li h5
+{
+    font-size:.75em;
+    text-align: center;
+}
+
+#blogSection ul li p
+{
+    margin-top:2%;
+    margin-bottom:2%;
+    font-size:12pt;
+}
+
+#blogSection ul li
+{
+    border-bottom: 1px dotted #d5d5d5;
+}
+
+#blogSection ul li:last-child
+{
+    border-bottom: none;
+}
+
+#blogSectionMini
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#blogSectionMini h3
+{
+    text-align: center;
+}
+
+#blogSectionMini h5
+{
+    font-size:.75em;
+    text-align: center;
+}
+
+#blogSectionMini p
+{
+    margin-top:2%;
+    margin-bottom:2%;
+    font-size:12pt;
+}
+
+#socialStuffMini ul 
+{
+    margin: 0;
+    padding: 0;
+}
+
+#socialStuffMini ul li 
+{
+    display: inline-block;
+    list-style-type: none;
+    float:left;
+    padding:3px 3px 3px 3px;
+    margin:5px 5px 5px 5px;
+    text-align:center;
+    border:solid 1px #d5d5d5;
+}
+
+
+#socialStuffMini ul li a
+{
+    text-decoration:none;
+    color:black;
+}
+
+#socialStuffMini ul li a:hover
+{
+    color:#808080;
+    -o-transition:.25s;
+	-ms-transition:.25s;
+	-moz-transition:.25s;
+	-webkit-transition:.25s;
+	transition:.25s;
+}
+
+#aboutPageStyles img
+{
+    display:block;
+    margin:auto;
+    margin-bottom:2%;
+}
+
+#disqus_thread
+{
+    margin-top:5%;
+}
+

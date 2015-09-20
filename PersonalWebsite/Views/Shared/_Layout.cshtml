@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/fontawesome")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @*@Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
+            </div>
+            <div class="navbar-collapse collapse navbar-left">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("About", "About", "About")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Contact")</li>
+                    <li>@Html.ActionLink("Resume", "Resume", "Resume")</li>
+                </ul>
+            </div>
+            <div class="navbar-collapse collapse navbar-right" id="socialStuff">
+                <ul class="nav navbar-nav">
+                    <li><a href="https://www.facebook.com/ameliowright"><i class="fa fa-facebook-square fa-align-center fa-1x"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/ameliowright"><i class="fa fa-linkedin-square fa-align-center fa-1x"></i></a></li>
+                    <li><a href="https://stackoverflow.com/users/2250329/amelio-wright"><i class="fa fa-stack-overflow fa-align-center fa-1x"></i></a></li>
+                    <li><a href="https://github.com/figglewot/"><i class="fa fa-github-square fa-align-center fa-1x"></i></a></li>
+                    <li><a href="mailto:wright.amelio@outlook.com"><i class="fa fa-envelope fa-align-center fa-1x"></i></a></li>
+                </ul>
+            </div>  
+        </div>
+    </div>
+    @*<div class="page-header">
+        <img src="Images/blogBanner.png" style="display:block;margin-left:auto;margin-right:auto;" />
+    </div>*@
+    <div class="container body-content" style="color:inherit;background-color:#eeeeee;border-radius:25px;margin-top:2%;">
+        @RenderBody()
+        <hr />
+        @*<footer>
+            <p>&copy; @DateTime.Now.Year - ameliowright.com</p>
+        </footer>*@
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
