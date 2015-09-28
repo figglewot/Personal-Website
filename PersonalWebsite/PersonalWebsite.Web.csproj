@@ -184,6 +184,7 @@
     <Content Include="Views\Blog\Index.cshtml" />
     <Content Include="Views\Blog\blog_work_in_progress.cshtml" />
     <Content Include="Views\Blog\why_mentorship_is_a_win_win_scenario.cshtml" />
+    <Content Include="Views\Blog\developer_biases_are_toxic.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
