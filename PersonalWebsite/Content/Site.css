@@ -136,6 +136,12 @@ textarea {
     border-bottom: none;
 }
 
+#blogSection ol li
+{
+    border-bottom: none;
+    list-style: square;
+}
+
 #blogSectionMini
 {
     margin: 0;
