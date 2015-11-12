@@ -56,6 +56,22 @@ textarea {
     margin:1px 1px 1px 1px;
 }
 
+#resumeSkillSection ul li a
+{
+    color: #282828;
+}
+
+#resumeSkillSection ul li a:hover
+{
+    color: #808080;
+    text-decoration: none;
+    -o-transition:.25s;
+	-ms-transition:.25s;
+	-moz-transition:.25s;
+	-webkit-transition:.25s;
+	transition:.25s;
+}
+
 #resumeExperienceSection ul
 {
     margin: 0;
@@ -212,4 +228,27 @@ textarea {
 {
     margin-top:5%;
 }
+
+#pagedListBottom {
+    text-align:center;
+    border: none;
+    margin-top: 2%;
+
+}
+
+#pagedListBottom ul li{
+    float: left;
+    display: inline-block;
+}
+
+#pagedListBottom .disabled a {
+    display: none;
+}
+
+#pagedListBottom .active a {
+    background-color: #d5d5d5;
+    border-color: #d5d5d5;
+}
+
+
 

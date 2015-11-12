@@ -1,31 +1,5 @@
-﻿@{
+﻿@model IEnumerable<BlogPost>
+@{
     ViewBag.Title = "Hello World and a Cup of Tea";
 }
-<div class="col-md-12" id="blogSectionMini">
-    <article>
-        <h3>@ViewBag.Title</h3>
-        <h5>Aug 23 2015</h5>
-        <p>Hello world! I'd like to welcome you to my re-designed blog. This is my first attempt at using angularJS as the driving element to bind data to html elements.</p>
-        <p>Most likely, my usage will evolve overtime as I learn through refactoring, but this is pretty exciting nonetheless.</p>
-        <p>I will be using this space to share my views on current things that interest me, problems that I have experienced and overcome, and the sort.</p>
-        <p>My goal is to publish atleast one article on here weekly to start and overtime as I become more assimilated with writing about things I'll hopefully get on to putting out more material.</p>
-    </article>
-    @*<i class="fa fa-angle-double-left fa-1x">@Html.ActionLink("Go Back", "Index", "Home")</i>*@
-
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES * * */
-        var disqus_shortname = 'awrightblog';
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function () {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-</div>
-
-
-
+@Html.Partial("_BlogPost", Model)

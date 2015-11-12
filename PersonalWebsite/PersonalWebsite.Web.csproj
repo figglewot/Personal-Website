@@ -186,6 +186,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\otf.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.matchmedia.addListener.js" />
     <Content Include="Scripts\respond.matchmedia.addListener.min.js" />
@@ -213,6 +214,7 @@
     <Content Include="Views\Blog\developer_biases_are_toxic.cshtml" />
     <Content Include="Views\Blog\automation_is_a_good_thing.cshtml" />
     <Content Include="Views\Home\_BlogPosts.cshtml" />
+    <Content Include="Views\Blog\_BlogPost.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

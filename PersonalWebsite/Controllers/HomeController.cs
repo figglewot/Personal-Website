@@ -11,11 +11,17 @@ namespace PersonalWebsite.Controllers
     public class HomeController : Controller
     {
         awrightBlogDb _db = new awrightBlogDb();
+        [OutputCache(Duration = 600)]
         public ActionResult Index(int page = 1)
         {
             var model =
                 _db.BlogPosts
                     .OrderByDescending(blogPost => blogPost.Id).ToPagedList(page, 2);
+
+            if (Request.IsAjaxRequest())
+            {
+                return PartialView("_BlogPosts", model);
+            }
 
             return View(model);
         }

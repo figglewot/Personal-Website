@@ -24,7 +24,6 @@ D:\CodeProjects\WebApplication2\WebApplication3\WebApplication3\bin\PersonalWebs
 D:\CodeProjects\WebApplication2\WebApplication3\WebApplication3\bin\PersonalWebsite.pdb
 D:\CodeProjects\WebApplication2\WebApplication3\WebApplication3\obj\Debug\PersonalWebsite.dll
 D:\CodeProjects\WebApplication2\WebApplication3\WebApplication3\obj\Debug\PersonalWebsite.pdb
-C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\obj\Debug\PersonalWebsite.Web.csprojResolveAssemblyReference.cache
 C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\bin\PersonalWebsite.dll.config
 C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\bin\PersonalWebsite.dll
 C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\bin\PersonalWebsite.pdb

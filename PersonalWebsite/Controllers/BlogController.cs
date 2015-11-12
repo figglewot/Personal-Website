@@ -9,6 +9,7 @@ namespace PersonalWebsite.Controllers
 {
     public class BlogController : Controller
     {
+        awrightBlogDb _db = new awrightBlogDb();
         public ActionResult Index()
         {
             return View();
@@ -16,7 +17,10 @@ namespace PersonalWebsite.Controllers
 
         public ActionResult Posts(string id)
         {
-            return View(id);
+            var model = _db.BlogPosts
+                    .Where(blogPost => blogPost.PostUrl == id);
+            
+            return View(id, model);
         }
 
     }

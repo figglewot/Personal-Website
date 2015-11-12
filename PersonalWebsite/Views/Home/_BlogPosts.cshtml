@@ -2,10 +2,6 @@
 
 <div class="row">
     <div class="col-md-12" id="blogSection">
-        <div class="pagedList" data-otf-target="#blogPostList">
-            @Html.PagedListPager(Model, page => Url.Action("Index", new { page }),
-            PagedListRenderOptions.TwitterBootstrapPagerAligned)
-        </div>
         <article>
             <ul>
                 @foreach (var item in Model)
@@ -18,9 +14,9 @@
                 }
             </ul>
         </article>
-        <div class="pagedList" data-otf-target="#blogPostList">
+        <div id ="pagedListBottom" class="pagedList" data-otf-target="#blogPostList">
             @Html.PagedListPager(Model, page => Url.Action("Index", new { page }),
-            PagedListRenderOptions.TwitterBootstrapPagerAligned)
+            PagedListRenderOptions.Classic)
         </div>
     </div>
 </div>
