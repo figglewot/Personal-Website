@@ -77,3 +77,13 @@ C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\bin\Microsoft.Web.I
 C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\obj\Release\PersonalWebsite.Web.csprojResolveAssemblyReference.cache
 C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\obj\Release\PersonalWebsite.dll
 C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\obj\Release\PersonalWebsite.pdb
+C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\bin\EntityFramework.dll
+C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\bin\EntityFramework.SqlServer.dll
+C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\bin\PagedList.dll
+C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\bin\PagedList.Mvc.dll
+C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\bin\EntityFramework.xml
+C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\bin\EntityFramework.SqlServer.xml
+C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\bin\PagedList.xml
+C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\bin\PagedList.Mvc.xml
+C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\obj\Release\PersonalWebsite.Migrations.InitialCreate.resources
+C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\obj\Release\PersonalWebsite.Web.csproj.GenerateResource.Cache

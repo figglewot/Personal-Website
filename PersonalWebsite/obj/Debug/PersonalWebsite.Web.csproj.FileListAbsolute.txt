@@ -51,3 +51,13 @@ C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\bin\System.Web.WebP
 C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\bin\Microsoft.Web.Infrastructure.xml
 C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\obj\Debug\PersonalWebsite.dll
 C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\obj\Debug\PersonalWebsite.pdb
+C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\bin\EntityFramework.dll
+C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\bin\EntityFramework.SqlServer.dll
+C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\bin\EntityFramework.xml
+C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\bin\EntityFramework.SqlServer.xml
+C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\obj\Debug\PersonalWebsite.Migrations.InitialCreate.resources
+C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\obj\Debug\PersonalWebsite.Web.csproj.GenerateResource.Cache
+C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\bin\PagedList.dll
+C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\bin\PagedList.Mvc.dll
+C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\bin\PagedList.xml
+C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\bin\PagedList.Mvc.xml

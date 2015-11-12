@@ -1,0 +1,26 @@
+﻿@model PagedList<BlogPost>
+
+<div class="row">
+    <div class="col-md-12" id="blogSection">
+        <div class="pagedList" data-otf-target="#blogPostList">
+            @Html.PagedListPager(Model, page => Url.Action("Index", new { page }),
+            PagedListRenderOptions.TwitterBootstrapPagerAligned)
+        </div>
+        <article>
+            <ul>
+                @foreach (var item in Model)
+                {
+                    <li>
+                        <h3>@Html.Raw(@Html.ActionLink(@item.Title, "posts", "blog", new {id = @item.PostUrl}, null))</h3>
+                        @Html.Raw(@item.Date)
+                        @Html.Raw(@item.Body)
+                    </li>
+                }
+            </ul>
+        </article>
+        <div class="pagedList" data-otf-target="#blogPostList">
+            @Html.PagedListPager(Model, page => Url.Action("Index", new { page }),
+            PagedListRenderOptions.TwitterBootstrapPagerAligned)
+        </div>
+    </div>
+</div>
