@@ -1,29 +1,6 @@
-﻿
+﻿@model IEnumerable<PersonalWebsite.Models.Blog.BlogPost>
 @{
     ViewBag.Title = "Blog Work in Progress";
 }
 
-<div class="col-md-12" id="blogSectionMini">
-    <article>
-        <h3>@ViewBag.Title</h3>
-        <h5>Sep 19 2015</h5>
-        <p>I realize that I have a ton of realestate that is unaccounted for on my pages.</p>
-        <p>But I really like the flow of the basic scaffolding for now.</p>
-        <p>//TODO: Add more content :)</p>
-    </article>
-    @*<i class="fa fa-angle-double-left fa-1x" id="returnButton">@Html.ActionLink("Go Back", "Index", "Home")</i>*@
-
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES * * */
-        var disqus_shortname = 'awrightblog';
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function () {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-</div>
+@Html.Partial("_BlogPost", Model)

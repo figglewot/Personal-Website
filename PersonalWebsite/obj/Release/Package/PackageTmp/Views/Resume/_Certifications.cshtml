@@ -1,0 +1,9 @@
+﻿@model IEnumerable<PersonalWebsite.Models.Resume.Certifications>
+    
+<h3>Certifiations</h3>
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>@Html.Raw(item.Title) - @Html.Raw(item.Grantor)</li>
+    }
+</ul>

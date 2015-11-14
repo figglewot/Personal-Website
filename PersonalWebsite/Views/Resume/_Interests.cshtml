@@ -1,0 +1,9 @@
+﻿@model IEnumerable<PersonalWebsite.Models.Resume.Interests>
+    
+<h3>Interests</h3>
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>@Html.Raw(item.Interest)</li>
+    }
+</ul>

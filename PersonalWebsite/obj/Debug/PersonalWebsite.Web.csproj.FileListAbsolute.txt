@@ -60,3 +60,4 @@ C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\bin\PagedList.dll
 C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\bin\PagedList.Mvc.dll
 C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\bin\PagedList.xml
 C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\bin\PagedList.Mvc.xml
+C:\Users\awright2\Documents\Personal-Website\PersonalWebsite\obj\Debug\PersonalWebsite.Web.csprojResolveAssemblyReference.cache

@@ -23,5 +23,11 @@ namespace PersonalWebsite.Controllers
             return View(id, model);
         }
 
+        protected override void Dispose(bool disposing)
+        {
+            _db?.Dispose();
+            base.Dispose(disposing);
+        }
+
     }
 }

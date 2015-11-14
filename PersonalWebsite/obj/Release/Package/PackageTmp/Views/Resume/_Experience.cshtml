@@ -1,0 +1,15 @@
+﻿@model IEnumerable<PersonalWebsite.Models.Resume.Experience>
+
+<h3>Experience</h3>
+<ul>
+        @foreach (var item in Model)
+        {
+            <li>
+                @Html.Raw(item.Company)
+                @Html.Raw(item.JobTitle)
+                @Html.Raw(item.DatesWorked)
+                @Html.Raw(item.ExperienceDetail)
+            </li>
+        }
+</ul>
+

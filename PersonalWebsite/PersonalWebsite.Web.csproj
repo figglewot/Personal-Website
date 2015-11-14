@@ -142,7 +142,11 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\awrightBlogDb.cs" />
-    <Compile Include="Models\BlogPost.cs" />
+    <Compile Include="Models\Blog\BlogPost.cs" />
+    <Compile Include="Models\Resume\Certifications.cs" />
+    <Compile Include="Models\Resume\Experience.cs" />
+    <Compile Include="Models\Resume\Interests.cs" />
+    <Compile Include="Models\Resume\Skills.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -215,6 +219,12 @@
     <Content Include="Views\Blog\automation_is_a_good_thing.cshtml" />
     <Content Include="Views\Home\_BlogPosts.cshtml" />
     <Content Include="Views\Blog\_BlogPost.cshtml" />
+    <Content Include="Views\Resume\_Skills.cshtml" />
+    <Content Include="Views\Resume\_Interests.cshtml" />
+    <Content Include="Views\Resume\_Certifications.cshtml" />
+    <Content Include="Views\Resume\_Experience.cshtml" />
+    <Content Include="Views\Blog\on_automating_kendo_with_selenium_js.cshtml" />
+    <Content Include="Views\Shared\_ScrollToTop.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

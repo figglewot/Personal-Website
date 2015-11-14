@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.UI;
 using PersonalWebsite.Models;
 using PagedList;
 
@@ -11,7 +12,7 @@ namespace PersonalWebsite.Controllers
     public class HomeController : Controller
     {
         awrightBlogDb _db = new awrightBlogDb();
-        [OutputCache(Duration = 600)]
+        [OutputCache(Duration = 3600, Location = OutputCacheLocation.Client, NoStore = true)]
         public ActionResult Index(int page = 1)
         {
             var model =

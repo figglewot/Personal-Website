@@ -1,4 +1,4 @@
-﻿@model PagedList<BlogPost>
+﻿@model PagedList<PersonalWebsite.Models.Blog.BlogPost>
 
 <div class="row">
     <div class="col-md-12" id="blogSection">
@@ -14,9 +14,10 @@
                 }
             </ul>
         </article>
-        <div id ="pagedListBottom" class="pagedList" data-otf-target="#blogPostList">
-            @Html.PagedListPager(Model, page => Url.Action("Index", new { page }),
-            PagedListRenderOptions.Classic)
+        <div id="pagedListBottom" class="pagedList" data-otf-target="#blogPostList">
+            @Html.PagedListPager(Model, page => Url.Action("Index", new {page}),
+                PagedListRenderOptions.Classic)
         </div>
     </div>
 </div>
+
