@@ -48,10 +48,11 @@
     </div>*@
     <div class="container body-content" style="color:inherit;background-color:#eeeeee;border-radius:25px;margin-top:2%;">
         @RenderBody()
-        <hr />
-        @*<footer>
+        <hr/>
+        @Html.Partial("_ScrollToTop")
+        <footer id="footer">
             <p>&copy; @DateTime.Now.Year - ameliowright.com</p>
-        </footer>*@
+        </footer>
     </div>
 
     @Scripts.Render("~/bundles/jquery")
