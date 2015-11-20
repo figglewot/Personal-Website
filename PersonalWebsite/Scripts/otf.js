@@ -20,10 +20,8 @@
 
 $(function () {
 
-    // hide #back-top first
     $("#returnToTop").hide();
 
-    // fade in #back-top
     $(function () {
         $(window).scroll(function () {
             if ($(this).scrollTop() > 100) {
@@ -33,7 +31,6 @@ $(function () {
             }
         });
 
-        // scroll body to 0px on click
         $('#returnToTop a').click(function () {
             $('body,html').animate({
                 scrollTop: 0

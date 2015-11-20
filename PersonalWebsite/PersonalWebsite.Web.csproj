@@ -225,6 +225,7 @@
     <Content Include="Views\Resume\_Experience.cshtml" />
     <Content Include="Views\Blog\on_automating_kendo_with_selenium_js.cshtml" />
     <Content Include="Views\Shared\_ScrollToTop.cshtml" />
+    <Content Include="Views\Blog\simple_scroll_to_top_js.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
